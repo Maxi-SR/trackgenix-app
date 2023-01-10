@@ -1,0 +1,21 @@
+.row {
+    text-align: center;
+    background-color: #ffffff;
+    border: solid 2px #3738671A;
+}
+
+.td {
+    padding: 8px;
+}
+
+.row:hover{
+    text-align: center;
+    background-color: #AACE9B33;
+    border: none;
+}
+
+.noData {
+    color: #ff0000;
+    display: flex;
+    justify-content: center;
+}

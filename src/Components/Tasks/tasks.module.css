@@ -1,0 +1,73 @@
+.container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.addButton {
+  background-color: #AACE9B;
+  color: #373867;
+  border-style: none;
+  font-size: 30px;
+  font-weight: 800;
+  padding: 10px;
+  border-radius: 30px;
+  height: 60px;
+  width: 60px;
+}
+
+.addButton:hover {
+  background-color: #ffffff;
+  color: #373867;
+  border-style: solid;
+  font-size: 30px;
+  font-weight: 800;
+  padding: 10px;
+  border-radius: 30px;
+  height: 60px;
+  width: 60px;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 500px;
+  height: 150px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: solid 1px #808080;
+  margin: auto;
+}
+
+.form label {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.form input {
+  width: 384px;
+  height: 38px;
+  border-radius: 5px;
+  border: solid 1px #808080;
+}
+
+.confirmButton {
+  padding: 10px 24px;
+  background: #AACE9B;
+  border-radius: 5px;
+  color: #ffffff;
+  margin-left: 10px;
+}
+
+.cancelButton {
+  padding: 10px 24px;
+  background: #F13312;
+  border-radius: 5px;
+  color: #ffffff;
+  margin-left: 10px;
+}

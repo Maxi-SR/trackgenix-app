@@ -1,0 +1,39 @@
+.modalContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .5);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .modal, .errorModal, .successModal  {
+    width: 300px;
+    position: relative;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+  }
+
+  .modal {
+    background-color: #ffffff;
+    color: #373867;
+  }
+
+  .errorModal {
+    background-color: #F13312;
+    color: #ffffff;
+  }
+
+  .successModal {
+    background-color: #AACE9B;
+    color: #373867;
+  }
+
+  .modal > :not(h3) + p, .errorModal > :not(h3) + p, .successModal > :not(h3) + p {
+    font-weight: 700;
+  }

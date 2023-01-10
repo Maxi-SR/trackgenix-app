@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  height: 100%;
+}
+
+.logo {
+  width: 50px;
+}
+
+.brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  background-color: #37386766;
+  flex: 1;
+}
+
+.headline {
+    background-color: #AACE9B;
+    flex: 5;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+.appName {
+    font-size: 50px;
+    font-weight: bold;
+    color: #373867;
+    display: none;
+  }
+
+.hambMenu {
+  display: flex;
+  align-self: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .appName{
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hambMenu {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .appName {
+    font-size: 20px;
+  }
+}

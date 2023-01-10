@@ -1,0 +1,178 @@
+.addButton{
+    padding: 10px 24px;
+    background: #AACE9B;
+    border-radius: 5px;
+    border-style: none;
+    color: #373867;
+    margin-left: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.addButton:hover{
+    padding: 10px 24px;
+    background: #91af83;
+    border-radius: 5px;
+    border-style: none;
+    color: #373867;
+    margin-left: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.deleteButton{
+    padding: 10px 24px;
+    background: #ffffff;
+    border-radius: 5px;
+    border: solid 2px #F13312;
+    color: #F13312;
+    margin-left: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.deleteButton:hover{
+    padding: 10px 24px;
+    background: #f5e2df;
+    border-radius: 5px;
+    border: solid 2px #F13312;
+    color: #F13312;
+    margin-left: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.editButton{
+    padding: 10px 24px;
+    background: #373867;
+    border-radius: 5px;
+    border-style: none;
+    color: #ffffff;
+    margin-left: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.editButton:hover{
+    padding: 10px 24px;
+    background: #212147;
+    border-radius: 5px;
+    border-style: none;
+    color: #ffffff;
+    margin-left: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.confirmButton{
+    padding: 10px 24px;
+    background: #F13312;
+    border-radius: 5px;
+    border-style: none;
+    color: #ffffff;
+    margin-left: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.confirmButton:hover{
+    padding: 10px 24px;
+    background: #c72b10;
+    border-radius: 5px;
+    border-style: none;
+    color: #ffffff;
+    margin-left: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.cancelButton{
+    padding: 10px 24px;
+    background: #ffffff;
+    border-radius: 5px;
+    border: solid 2px #373867;
+    color: #373867;
+    margin-left: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.cancelButton:hover{
+    padding: 10px 24px;
+    background: #dbdbf1;
+    border-radius: 5px;
+    border: solid 2px #373867;
+    color: #373867;
+    margin-left: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.saveButton{
+    padding: 10px 24px;
+    background: #AACE9B;
+    border-radius: 5px;
+    border-style: none;
+    color: #ffffff;
+    margin-left: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.saveButton:hover{
+    padding: 10px 24px;
+    background: #91af83;
+    border-radius: 5px;
+    border-style: none;
+    color: #ffffff;
+    margin-left: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.closeButton{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: inherit;
+    font-weight: 800;
+}

@@ -1,0 +1,15 @@
+.container {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.selectEntity {
+    margin: 20px;
+}
+
+.title {
+    text-transform: uppercase;
+}

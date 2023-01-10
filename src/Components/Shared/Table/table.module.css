@@ -1,0 +1,12 @@
+.table {
+    background-color: #3738671a;
+    box-shadow: inset 0px 2px 0px #E0E0E0;
+    text-transform: capitalize;
+    border-radius: 5px;
+    border-collapse: collapse;
+    border: solid 2px #3738671a;
+}
+
+.noData {
+    color: #ff0000;
+}
